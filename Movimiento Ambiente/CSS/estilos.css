@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(216, 195, 176);
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecera {
+    color: green;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.center-menu {
+    display: flex;
+    font-size: 19px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.center-menu ul {
+    display: flex;
+}
+
+.center-menu ul li {
+    padding: 10px;
+}
+
+.center-menu ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
